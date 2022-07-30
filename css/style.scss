@@ -1,0 +1,32 @@
+#form{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 20vw;
+    margin: auto;
+    min-height: 30vh;
+    text-align: start;
+    padding: 5%;
+    place-items: center;
+    
+    label{
+        align-self: end;
+        font-size: 2rem;
+    }
+    input[type=submit]{
+        font-size: 1.5rem;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    input[type=text],input[type=password]{
+        line-height: 2;
+        font-size: 1.5rem;
+        margin: 10px;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+        font-size: 1.5rem;
+
+    }
+}
