@@ -3,6 +3,11 @@ let cookies_value = Cookies.get(`token`);
 // remove_cookies function will remove the cookies with logout button clicked 
 function remove_cookies(details) {
     Cookies.remove(`token`);
+    box[`innerHTML`] = `<h2>you are successfully logged out, redirecting to the login page</h2>`;
+    setTimeout(function() {
+       
+        location.href = `index.html`;
+    },3000);
 }
 // function success color will give name and year and div with background color same as the color name
 function success_color(response) {
