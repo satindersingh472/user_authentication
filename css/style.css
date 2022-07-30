@@ -1,3 +1,21 @@
+#back {
+  display: grid;
+  place-items: center;
+}
+#back a, #back button {
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 5px;
+  width: 150px;
+  text-align: center;
+  margin: 5px;
+  color: black;
+  background-color: white;
+}
+#back a:hover, #back button:hover {
+  background-color: gray;
+}
+
 #form {
   display: grid;
   grid-template-columns: 1fr;
@@ -26,4 +44,20 @@
 #form a {
   text-decoration: none;
   font-size: 1.5rem;
+}
+
+#box {
+  display: grid;
+  place-items: center;
+}
+#box .color_description {
+  text-align: center;
+  text-transform: capitalize;
+}
+#box .color_box {
+  font-size: 1.5rem;
+  height: 100px;
+  padding: 10px;
+  display: grid;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
